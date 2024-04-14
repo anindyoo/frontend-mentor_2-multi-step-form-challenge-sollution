@@ -6,6 +6,11 @@
 
 Thanks for checking out this solution repo for Multi-step form challenge from [Frontend Mentor](https://www.frontendmentor.io). 
 
+### Tools
+- ReactJS
+- Tailwind
+- HTML5
+
 ### Links 🔗
 [Challenge Detail](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ) | [Live Solution](https://anindyoo.github.io/frontend-mentor_2-multi-step-form-challenge-sollution/)
 

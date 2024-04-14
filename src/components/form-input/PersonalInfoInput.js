@@ -92,7 +92,7 @@ export default function PersonalInfoInput(props) {
             onChange={handleInputChange}
             placeholder={label.placeholder}
             className={`
-              border w-full min-h-12 px-4 rounded-md font-mediu border-lightGray 
+              border w-full min-h-12 px-4 rounded-md font-medium border-lightGray 
               focus:text-marineBlue focus:outline-none focus:border-marineBlue
               ${
                 nextButtonIsClicked && personalInfoContext.errors[label.id] && `border-strawberryRed`

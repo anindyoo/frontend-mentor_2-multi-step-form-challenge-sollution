@@ -91,9 +91,13 @@ export default function PersonalInfoInput(props) {
             value={personalInfoContext.inputs[label.id]}
             onChange={handleInputChange}
             placeholder={label.placeholder}
-            className={`border w-full min-h-12 px-4 rounded-md font-medium text-marineBlue focus:outline-none border-lightGray ${
-              nextButtonIsClicked && personalInfoContext.errors[label.id] ?  `border-strawberryRed` : `border-marineBlue`
-            }`}
+            className={`
+              border w-full min-h-12 px-4 rounded-md font-mediu border-lightGray 
+              focus:text-marineBlue focus:outline-none focus:border-marineBlue
+              ${
+                nextButtonIsClicked && personalInfoContext.errors[label.id] && `border-strawberryRed`
+              }`
+            }
             required />
         </div>
       ))}
